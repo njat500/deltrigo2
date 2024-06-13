@@ -187,6 +187,63 @@ header{
     color: #FFA500;
 }
 
+/* Nosotros Page */
+
+.body-nosotros {
+    background-color: #333;
+    background-image: url(../assets/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    max-width: 900px;
+}
+
+.nosotros-container-principal{
+    margin-top: 100px;
+}
+
+.nosotros-container-principal h2{
+    font-weight: 700;
+    font-size: 3.125rem;
+}
+
+.nosotros-container{
+background-color: #222;
+margin-top: 10px;
+border-radius: 20px;
+}
+.content {
+    text-align: left;
+    padding: 20px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.content h2 {
+    color: #FFA500;
+}
+.equipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.miembros-equipo {
+    text-align: center;
+    max-width: 200px;
+}
+.miembro img {
+    width: 12.5rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+@media (max-width: )
+
+.miembro p{
+    margin-top: 10px;
+}
+
 @media (max-width: 1024px){
     header{
         padding: 14px 2%;
@@ -209,7 +266,6 @@ header{
         top: 100%;
         right: -100%;
         width: 200px;
-        height: 35vh;
         background-color: #2a2a2a;
         display: flex;
         flex-direction: column;
@@ -249,6 +305,7 @@ main{
 footer{
     background-color: #2a2a2a;
     width: 100%;
+    max-width: 100%;
 }
 
 .footer-section{
