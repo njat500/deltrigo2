@@ -187,6 +187,7 @@ header{
     color: #FFA500;
 }
 
+<<<<<<< HEAD
 /* Nosotros Page */
 
 .body-nosotros {
@@ -244,6 +245,8 @@ border-radius: 20px;
 }
 }
 
+=======
+>>>>>>> origin/main
 @media (max-width: 1024px){
     header{
         padding: 14px 2%;
@@ -266,6 +269,10 @@ border-radius: 20px;
         top: 100%;
         right: -100%;
         width: 200px;
+<<<<<<< HEAD
+=======
+        height: 35vh;
+>>>>>>> origin/main
         background-color: #2a2a2a;
         display: flex;
         flex-direction: column;
@@ -305,7 +312,10 @@ main{
 footer{
     background-color: #2a2a2a;
     width: 100%;
+<<<<<<< HEAD
     max-width: 100%;
+=======
+>>>>>>> origin/main
 }
 
 .footer-section{
